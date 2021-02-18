@@ -7,7 +7,6 @@
 <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500" height="400">
 </abc>
    
-<iframe src="https://baidu.com" width="700px" height="500px" frameborder="0" scrolling="no"> </iframe>
 
 <iframe width="100%" height="475" src="https://dotnetfiddle.net/Widget/CsCons" frameborder="0"></iframe>
 
