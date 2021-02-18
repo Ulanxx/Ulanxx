@@ -32,7 +32,6 @@
     src="https://www.freecodecamp.org/certification/mifind/legacy-front-end">
 </iframe>
 
-    </p>
 
 - :telescope: I'm currently exploring Deno :alien:
 - :hourglass_flowing_sand: Experimenting with JS and learning React
