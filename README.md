@@ -6,6 +6,13 @@
 <br>
 <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500" height="400">
 </abc>
+   
+<iframe id="inlineFrameExample"
+    title="Inline Frame Example"
+    width="300"
+    height="200"
+    src="https://www.freecodecamp.org/certification/mifind/legacy-front-end">
+</iframe>
 
 </h3> 
 <h3 align="left">Languages and Tools:</h3>
@@ -22,15 +29,6 @@
 <a href="https://git-scm.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="40" height="40"/> </a>
 <a href="https://webpack.js.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg" alt="webpack" width="40" height="40"/> </a>
 <a href="https://www.gatsbyjs.com/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/gatsbyjs/gatsbyjs-icon.svg" alt="gatsby" width="40" height="40"/> </a>
- 
- 
- 
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="200"
-    src="https://www.freecodecamp.org/certification/mifind/legacy-front-end">
-</iframe>
 
 
 - :telescope: I'm currently exploring Deno :alien:
