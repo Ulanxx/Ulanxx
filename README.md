@@ -7,12 +7,8 @@
 <img src="https://media.giphy.com/media/SWoSkN6DxTszqIKEqv/giphy.gif" alt="Coder GIF" width="500" height="400">
 </abc>
    
-<iframe id="inlineFrameExample"
-    title="Inline Frame Example"
-    width="300"
-    height="200"
-    src="https://www.freecodecamp.org/certification/mifind/legacy-front-end">
-</iframe>
+<iframe src="https://baidu.com" width="700px" height="500px" frameborder="0" scrolling="no"> </iframe>
+
 
 </h3> 
 <h3 align="left">Languages and Tools:</h3>
