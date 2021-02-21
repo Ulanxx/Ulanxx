@@ -16,10 +16,12 @@
 <a href="https://webpack.js.org/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/js_webpack/js_webpack-icon.svg" alt="webpack" width="40" height="40"/> </a>
     <a href="https://nodejs.org" target="_blank"> <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original-wordmark.svg" alt="nodejs" width="40" height="40"/> </a>
     <a href="https://github.com/facebook/react" target="_blank"> <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="webpack" height="40"/> </a>
- <a href="https://github.com/facebook/react" target="_blank"> <img src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" alt="webpack" height="40"/> </a>
  <a href="https://flutter.dev/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/flutterio/flutterio-ar21.svg" alt="webpack"  height="40"/> </a>
   <a href="https://www.google.com/chrome/" target="_blank"> <img src="https://www.vectorlogo.zone/logos/google_chrome/google_chrome-ar21.svg" alt="webpack" height="40"/> </a>
  
 </p>
 
 ![visitors](https://visitor-badge.glitch.me/badge?page_id=page.id)
+
+![MIFind's GitHub stats](https://github-readme-stats.vercel.app/api?username=MIFind&show_icons=true&theme=radical)
+
