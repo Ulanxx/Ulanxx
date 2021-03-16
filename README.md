@@ -1,6 +1,6 @@
 <h3 align="left">
  <abc>
-  <img src="https://milimili.online/favicon.png" alt="Coder GIF" width="50" height="50">
+  <img src="https://github.com/MIFind/MIFind.github.io/blob/main/public/tx.png?raw=true" alt="Coder GIF" width="50" height="50">
   <span>👋 Hi, I'm MIFind, and FED in Tuya Smart Now.<span>
    
   [![Website](https://img.shields.io/website?label=milimili.online&style=for-the-badge&url=https%3A%2F%2Fmilimili.online)](http://milimili.online/)
