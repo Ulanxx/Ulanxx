@@ -2,7 +2,7 @@
 
 # Ulanxx | Fullstack Developer
 
-👋 终身学习。🚀
+👋 终身学习。🚀 [Blog](https://ulanxx-inc.netlify.app)
 
 ## 🛠️ 技术栈
 - TypeScript, Vite, Node.js, Vite, DApp, React, React Native, Docker, CI/CD
