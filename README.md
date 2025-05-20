@@ -6,7 +6,6 @@
 
 > 🤔 [Blog](https://ulanxx-inc.netlify.app)<br>
 > 🛠️ TypeScript, Vite, Node.js, Vite, DApp, React, React Native, Docker, CI/CD<br>
-> 🚀 [MemeGenix](https://meme-genix.netlify.app)<br>
 > 📬  Email: [mifindxuan@gmail.com](mailto:mifindxuan@gmail.com)<br>
 
 ## 🔥 正在补充
