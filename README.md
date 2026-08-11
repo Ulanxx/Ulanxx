@@ -60,17 +60,6 @@
 | [zmzai-db](https://github.com/Ulanxx/zmzai-db) | 共享数据库模型与认证原语 |
 | [zmzai-auth](https://github.com/Ulanxx/zmzai-auth) | 认证与账号服务 |
 
-## 代表构建
-
-<p align="center">
-  <img src="./assets/active-builds.svg" alt="Active builds board" />
-</p>
-
-| 项目 | 方向 |
-| --- | --- |
-| [temporal-rpa-engine](https://github.com/Ulanxx/temporal-rpa-engine) | 基于 Temporal 与 Playwright 的 RPA 流程编排 |
-| [ai-plantuml-previewer](https://github.com/Ulanxx/ai-plantuml-previewer) | PlantUML 实时预览与 AI 辅助编辑 |
-
 ## 技术关注
 
 ```txt
