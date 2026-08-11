@@ -18,6 +18,10 @@
 
 ---
 
+<p align="center">
+  <img src="./assets/zmzai-system-map.svg" alt="zmzai and Muzhi product system map" />
+</p>
+
 ```txt
 作者在场。不自托管即不署名。
 ```
@@ -58,14 +62,14 @@
 
 ## 代表构建
 
+<p align="center">
+  <img src="./assets/active-builds.svg" alt="Active builds board" />
+</p>
+
 | 项目 | 方向 |
 | --- | --- |
-| [mcp-deepseek-demo](https://github.com/Ulanxx/mcp-deepseek-demo) | DeepSeek + MCP 的最小 client/server 示例 |
-| [deepseek-github-issues-processor](https://github.com/Ulanxx/deepseek-github-issues-processor) | GitHub Issues 采集、结构化分析与报告生成 |
-| [pro-agent-node](https://github.com/Ulanxx/pro-agent-node) | 基于 Agentic Workflow 的演示文档生成系统 |
 | [temporal-rpa-engine](https://github.com/Ulanxx/temporal-rpa-engine) | 基于 Temporal 与 Playwright 的 RPA 流程编排 |
 | [ai-plantuml-previewer](https://github.com/Ulanxx/ai-plantuml-previewer) | PlantUML 实时预览与 AI 辅助编辑 |
-| [harness](https://github.com/Ulanxx/harness) | 面向代码智能体的任务调度、隔离执行与看板流转 |
 
 ## 技术关注
 

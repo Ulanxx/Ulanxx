@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
+  <title id="title">zmzai and Muzhi product system map</title>
+  <desc id="desc">A paper-like product system map for zmzai cloud and Muzhi.</desc>
+  <rect width="1200" height="520" fill="#f4efe6"/>
+  <rect x="28" y="28" width="1144" height="464" fill="#f4efe6" stroke="#15120d" stroke-width="4"/>
+  <line x1="28" y1="112" x2="1172" y2="112" stroke="#15120d" stroke-width="3"/>
+  <text x="60" y="80" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="800" letter-spacing="3">ZMZAI.CLOUD</text>
+  <text x="960" y="80" fill="#756d61" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="end">牧之的云 · AI 产品系统</text>
+
+  <text x="72" y="210" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="92" font-weight="900">z</text>
+  <rect x="136" y="145" width="70" height="70" rx="4" fill="#d9f26f" stroke="#15120d" stroke-width="3"/>
+  <text x="171" y="194" fill="#15120d" font-family="serif" font-size="42" font-weight="800" text-anchor="middle">站</text>
+  <text x="72" y="250" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="18" font-weight="800">聚合站</text>
+  <text x="72" y="282" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">产品集合入口</text>
+
+  <line x1="260" y1="208" x2="940" y2="208" stroke="#15120d" stroke-width="3"/>
+  <circle cx="260" cy="208" r="8" fill="#15120d"/>
+  <circle cx="940" cy="208" r="8" fill="#15120d"/>
+
+  <g transform="translate(310 150)">
+    <rect width="150" height="116" fill="#f4efe6" stroke="#15120d" stroke-width="3"/>
+    <text x="24" y="48" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="40" font-weight="900">a</text>
+    <text x="72" y="48" fill="#15120d" font-family="serif" font-size="32" font-weight="800">使</text>
+    <text x="24" y="84" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">Agent 编排</text>
+  </g>
+
+  <g transform="translate(510 150)">
+    <rect width="150" height="116" fill="#f4efe6" stroke="#15120d" stroke-width="3"/>
+    <text x="24" y="48" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="40" font-weight="900">m</text>
+    <text x="72" y="48" fill="#15120d" font-family="serif" font-size="32" font-weight="800">驿</text>
+    <text x="24" y="84" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">模型中转</text>
+  </g>
+
+  <g transform="translate(710 150)">
+    <rect width="150" height="116" fill="#f4efe6" stroke="#15120d" stroke-width="3"/>
+    <text x="24" y="48" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="40" font-weight="900">z</text>
+    <text x="72" y="48" fill="#15120d" font-family="serif" font-size="32" font-weight="800">场</text>
+    <text x="24" y="84" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">沙箱执行</text>
+  </g>
+
+  <g transform="translate(910 150)">
+    <rect width="150" height="116" fill="#f4efe6" stroke="#15120d" stroke-width="3"/>
+    <text x="24" y="48" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="40" font-weight="900">i</text>
+    <text x="72" y="48" fill="#15120d" font-family="serif" font-size="32" font-weight="800">作</text>
+    <text x="24" y="84" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">工作台</text>
+  </g>
+
+  <line x1="170" y1="338" x2="1028" y2="338" stroke="#15120d" stroke-width="3"/>
+  <rect x="72" y="320" width="196" height="112" fill="#15120d"/>
+  <text x="170" y="372" fill="#f4efe6" font-family="serif" font-size="40" font-weight="800" text-anchor="middle">牧之</text>
+  <text x="170" y="404" fill="#d9f26f" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700" text-anchor="middle">知识产品本体</text>
+
+  <text x="320" y="362" fill="#15120d" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="24" font-weight="800">博客 + 课程 + 会员 + 支付 + 权益 + 反馈</text>
+  <text x="320" y="400" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="20">把知识、工具、自动化串成一条可交付的产品线。</text>
+</svg>

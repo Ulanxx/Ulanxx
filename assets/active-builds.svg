@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Active builds board</title>
+  <desc id="desc">A visual board of active and retained builds.</desc>
+  <rect width="1200" height="360" fill="#f4efe6"/>
+  <rect x="28" y="28" width="1144" height="304" fill="#f4efe6" stroke="#15120d" stroke-width="4"/>
+  <text x="60" y="82" fill="#15120d" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="22" font-weight="900" letter-spacing="2">ACTIVE BUILDS</text>
+  <text x="60" y="122" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">留下能代表方向的东西。基础 demo 不占首页。</text>
+
+  <g transform="translate(60 164)">
+    <rect width="320" height="110" fill="#15120d"/>
+    <text x="28" y="42" fill="#f4efe6" font-family="serif" font-size="30" font-weight="800">牧之</text>
+    <text x="28" y="76" fill="#d9f26f" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18" font-weight="700">LIVE · 知识产品交付底座</text>
+  </g>
+
+  <g transform="translate(440 164)">
+    <rect width="320" height="110" fill="#f4efe6" stroke="#15120d" stroke-width="3"/>
+    <text x="28" y="42" fill="#15120d" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="900">Temporal RPA Engine</text>
+    <text x="28" y="76" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">WORKFLOW · 浏览器自动化</text>
+  </g>
+
+  <g transform="translate(820 164)">
+    <rect width="320" height="110" fill="#f4efe6" stroke="#15120d" stroke-width="3"/>
+    <text x="28" y="42" fill="#15120d" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="26" font-weight="900">AI PlantUML Previewer</text>
+    <text x="28" y="76" fill="#756d61" font-family="system-ui, -apple-system, BlinkMacSystemFont, Segoe UI, sans-serif" font-size="18">TOOL · 图形化表达</text>
+  </g>
+</svg>
