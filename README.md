@@ -26,9 +26,9 @@
 作者在场。不自托管即不署名。
 ```
 
-我在构建 AI 产品、智能体工作区、知识产品和自动化工具。
+我把一个人的 AI 产品系统拆成可独立部署的服务：知识交付、模型中转、沙箱执行、Agent 编排、账号与工作台。
 
-最近的主线，是把 Agent、Workflow、MCP、RPA、内容系统这些能力做成真正可运行、可交付、可持续迭代的产品。
+重点不是做 demo，而是把每一段链路跑成闭环：用户能登录、付费、调用、执行、留下记录，服务之间能校验身份、结算额度、恢复状态。
 
 ## 现在可用
 
@@ -36,7 +36,7 @@
 | --- | --- | --- |
 | [牧之 AI 知识体系](https://muzhi.zmzai.cloud) | LIVE | 自托管的知识产品交付与会员运营底座 |
 | [zmzai cloud](https://zmzai.cloud) | LIVE | 牧之的云，AI 产品系统与项目集合入口 |
-| [中转驿](https://m.zmzai.cloud) | LIVE | 模型与 API 的中转站 |
+| [中转驿](https://m.zmzai.cloud) | LIVE | 模型、额度与 API 调用的中转站 |
 
 ## 产品线
 
@@ -44,9 +44,9 @@
 | --- | --- | --- | --- |
 | `牧` | [牧之](https://github.com/Ulanxx/muzhi) | LIVE | 知识产品、课程、会员、内容交付 |
 | `z 场` | [zmzai-sandbox](https://github.com/Ulanxx/zmzai-sandbox) | BUILDING | 受限代码执行与 Agent 实验环境 |
-| `m 驿` | [zmzai-relay](https://github.com/Ulanxx/zmzai-relay) | BUILDING | 模型、工具与外部服务转发层 |
+| `m 驿` | [zmzai-relay](https://github.com/Ulanxx/zmzai-relay) | BUILDING | 模型目录、额度钱包与服务间调用边界 |
 | `z 站` | [zmzai-cloud](https://github.com/Ulanxx/zmzai-cloud) | BUILDING | 云端工作区与平台服务 |
-| `a 使` | [zmzai-agent](https://github.com/Ulanxx/zmzai-agent) | BUILDING | 可审计的 Agent 任务与编排层 |
+| `a 使` | [zmzai-agent](https://github.com/Ulanxx/zmzai-agent) | BUILDING | 可审计的 Agent 任务、审批与工具执行 |
 | `i 作` | [zmzai-workos](https://github.com/Ulanxx/zmzai-workos) | BUILDING | 组织、账号与团队协作集成 |
 
 ## ZMZ AI 底座
@@ -56,7 +56,7 @@
 | [zmzai-cloud](https://github.com/Ulanxx/zmzai-cloud) | 云端工作区与平台服务 |
 | [zmzai-agent](https://github.com/Ulanxx/zmzai-agent) | 智能体运行时与任务编排层 |
 | [zmzai-sandbox](https://github.com/Ulanxx/zmzai-sandbox) | 工具调用沙箱环境 |
-| [zmzai-relay](https://github.com/Ulanxx/zmzai-relay) | 模型、工具与外部服务转发层 |
+| [zmzai-relay](https://github.com/Ulanxx/zmzai-relay) | 模型目录、额度钱包与服务间 API |
 | [zmzai-db](https://github.com/Ulanxx/zmzai-db) | 共享数据库模型与认证原语 |
 | [zmzai-auth](https://github.com/Ulanxx/zmzai-auth) | 认证与账号服务 |
 
