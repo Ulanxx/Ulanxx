@@ -1,5 +1,5 @@
 <p align="center">
-  <sub>知末智云的云 · AI 产品系统</sub>
+  <sub>知末智云 · AI 产品系统</sub>
 </p>
 
 <h1 align="center">zmzai · 知末智云</h1>
