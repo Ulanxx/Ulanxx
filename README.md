@@ -34,26 +34,26 @@
 
 | 产品 | 状态 | 说明 |
 | --- | --- | --- |
-| [zmzai.cloud](https://zmzai.cloud) | LIVE | 知末智云 · 产品矩阵与工作区入口 |
+| [zmzai.cloud](https://zmzai.cloud) | LIVE | 知末智云 · 品牌首页与产品索引（枢纽） |
 | [牧之 AI 知识体系](https://muzhi.zmzai.cloud) | LIVE | 知末智云 · 牧之署名站，自托管知识产品与会员运营底座 |
-| [中转驿](https://m.zmzai.cloud) | LIVE | 模型目录、额度钱包与服务间 API |
+| [Relay 模型](https://m.zmzai.cloud) | LIVE | 所有模型的统一接口，额度钱包与服务间 API |
 
 ## 产品线
 
 | 符号 | 名字 | 状态 | 方向 |
 | --- | --- | --- | --- |
-| `牧` | [muzhi](https://github.com/zmzai-cloud/muzhi) | LIVE | 知识产品、课程、会员、内容交付 |
-| `z 场` | [zmzai-sandbox](https://github.com/zmzai-cloud/zmzai-sandbox) | LIVE | 受限代码执行与 Agent 实验环境 |
-| `m 驿` | [zmzai-relay](https://github.com/zmzai-cloud/zmzai-relay) | LIVE | 模型目录、额度钱包与服务间调用边界 |
-| `z 站` | [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | LIVE | 云端工作区与平台服务 |
-| `a 使` | [zmzai-agent](https://github.com/zmzai-cloud/zmzai-agent) | LIVE | 可审计的 Agent 任务、审批与工具执行 |
-| `i 作` | [zmzai-workos](https://github.com/zmzai-cloud/zmzai-workos) | BUILDING | 组织、账号与团队协作集成 |
+| `牧` | [muzhi](https://github.com/zmzai-cloud/muzhi) | LIVE | 牧之署名站 — 博客 + 付费知识体系 |
+| `z 沙箱` | [zmzai-sandbox](https://github.com/zmzai-cloud/zmzai-sandbox) | BUILDING | 为 Agent 提供统一沙箱接入 |
+| `m 模型` | [zmzai-relay](https://github.com/zmzai-cloud/zmzai-relay) | LIVE | 所有模型的统一接口 |
+| `h 枢纽` | [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | LIVE | zmzai.cloud 品牌首页与产品索引 |
+| `a agent` | [zmzai-agent](https://github.com/zmzai-cloud/zmzai-agent) | LIVE | 从对话开始完成真实任务 |
+| `i 工作台` | [zmzai-workos](https://github.com/zmzai-cloud/zmzai-workos) | PLANNED | AI 时代的个人工作台 |
 
 ## ZMZ AI 底座
 
 | 仓库 | 职责 |
 | --- | --- |
-| [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | 云端工作区与平台服务 |
+| [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | 产品矩阵主站与工作区入口 |
 | [zmzai-agent](https://github.com/zmzai-cloud/zmzai-agent) | 智能体运行时与任务编排层 |
 | [zmzai-sandbox](https://github.com/zmzai-cloud/zmzai-sandbox) | 工具调用沙箱环境 |
 | [zmzai-relay](https://github.com/zmzai-cloud/zmzai-relay) | 模型目录、额度钱包与服务间 API |
