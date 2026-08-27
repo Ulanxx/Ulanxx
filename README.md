@@ -22,21 +22,19 @@
   <img src="./assets/zmzai-system-map.svg" alt="知末智云 AI 产品系统图" />
 </p>
 
-```txt
-知其末梢，智在云端。
-```
+> 知其末梢，智在云端。
 
-我把一套 AI 产品系统拆成可独立部署的服务：智能体编排、模型调度、受限沙箱、单点登录、知识交付与工作台。
+我在做一套可独立部署的 AI 产品系统：智能体编排、模型调度、受限沙箱、单点登录、知识交付与个人工作台。
 
-重点不是做 demo，而是把每一段链路跑成闭环：用户能登录、付费、调用、执行、留下记录，服务之间能校验身份、结算额度、恢复状态。
+重点不是把功能堆在一个 demo 里，而是把链路跑成闭环：用户能登录、调用、执行、留下记录，服务之间能校验身份、结算额度、恢复状态。
 
-## 现在可用
+## 现在在做
 
 | 产品 | 状态 | 说明 |
 | --- | --- | --- |
-| [zmzai.cloud](https://zmzai.cloud) | LIVE | 知末智云 · 品牌首页与产品索引（枢纽） |
-| [牧之 AI 知识体系](https://muzhi.zmzai.cloud) | LIVE | 知末智云 · 牧之署名站，自托管知识产品与会员运营底座 |
-| [Relay 模型](https://m.zmzai.cloud) | LIVE | 所有模型的统一接口，额度钱包与服务间 API |
+| [zmzai.cloud](https://zmzai.cloud) | LIVE | 品牌首页与产品索引 |
+| [牧之 AI 知识体系](https://muzhi.zmzai.cloud) | LIVE | 自托管知识产品与会员运营底座 |
+| [Relay 模型](https://m.zmzai.cloud) | LIVE | 统一模型接口、额度钱包与服务间 API |
 
 ## 产品线
 
@@ -48,6 +46,12 @@
 | `h 枢纽` | [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | LIVE | zmzai.cloud 品牌首页与产品索引 |
 | `a agent` | [zmzai-agent](https://github.com/zmzai-cloud/zmzai-agent) | LIVE | 从对话开始完成真实任务 |
 | `i 工作台` | [zmzai-workos](https://github.com/zmzai-cloud/zmzai-workos) | PLANNED | AI 时代的个人工作台 |
+
+## 系统怎么运行
+
+一次 Agent 请求从工作台进入编排层，经 Relay 选择模型并完成额度结算，最后进入云端 Sandbox；需要操作用户真实机器时，则经 Bridge 下发到桌面客户端，由用户审批后执行。
+
+云端执行和本机执行是两条不同的安全边界。共享的 Auth、MongoDB、设计系统和 Bridge 协议，负责让这些产品保持一致。
 
 ## ZMZ AI 底座
 

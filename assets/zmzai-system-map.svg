@@ -1,80 +1,44 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-labelledby="title desc">
-  <title id="title">知末智云 AI 产品系统图</title>
-  <desc id="desc">知末智云（zmzai cloud）产品矩阵：牧之、沙箱、模型、枢纽、Agent、工作台</desc>
-  <rect width="1200" height="520" fill="#ffffff"/>
-  <line x1="28" y1="112" x2="1172" y2="112" stroke="#111111" stroke-width="2"/>
-  <text x="60" y="80" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="28" font-weight="800" letter-spacing="3">ZMZAI.CLOUD</text>
-  <text x="960" y="80" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="16" font-weight="700" text-anchor="end">知末智云的云 · AI 产品系统</text>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
+  <title id="title">知末智云产品矩阵与系统底座</title>
+  <desc id="desc">知末智云的六条产品线，以及 Agent、Relay、Sandbox 和本机客户端组成的执行链。</desc>
+  <style>
+    .ink { fill:#26231f; }
+    .muted { fill:#817b72; }
+    .line { stroke:#e6e3dc; }
+    .accent { fill:#63e65b; }
+    .accent-stroke { stroke:#63e65b; }
+    .mono { font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace; }
+    .sans { font-family:'MiSans','PingFang SC','Microsoft YaHei',sans-serif; }
+    .serif { font-family:'Noto Serif SC','Songti SC',serif; }
+  </style>
+  <rect width="1200" height="720" fill="#fdfdfc"/>
+  <text x="48" y="54" class="mono muted" font-size="13" letter-spacing="2">ZMZAI / PRODUCT SYSTEM</text>
+  <text x="48" y="104" class="serif ink" font-size="42" font-weight="700">知末智云</text>
+  <text x="48" y="136" class="sans muted" font-size="17">把智能体、模型、执行环境和知识交付组织成一套可运行的产品系统。</text>
+  <text x="1152" y="58" class="mono muted" font-size="12" text-anchor="end">PROFILE / 2026</text>
+  <line x1="48" y1="166" x2="1152" y2="166" class="line" stroke-width="1"/>
+  <text x="48" y="202" class="mono muted" font-size="11" letter-spacing="1.4">01 · PRODUCT MATRIX</text>
+  <text x="1152" y="202" class="mono muted" font-size="11" text-anchor="end">六条产品线 · 一个品牌入口</text>
 
-  <!-- 牧之 · muzhi -->
-  <g transform="translate(58 150)">
-    <rect width="164" height="165" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <text x="18" y="42" fill="#51d845" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="900">M</text>
-    <text x="18" y="74" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="800">牧之</text>
-    <text x="18" y="98" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">muzhi.zmzai.cloud</text>
-    <circle cx="23" cy="118" r="4.5" fill="#51d845"/>
-    <text x="33" y="122" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">LIVE</text>
-    <text x="18" y="146" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12">知识产品交付闭环</text>
-  </g>
+  <g transform="translate(48 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">牧</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">牧之</text><text x="18" y="96" class="mono muted" font-size="11">muzhi.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">知识产品交付闭环</text><circle cx="158" cy="25" r="5" class="accent"/></g>
+  <g transform="translate(234 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">z</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">沙箱</text><text x="18" y="96" class="mono muted" font-size="11">z.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">统一受限执行</text><circle cx="158" cy="25" r="5" fill="#cfcac1"/></g>
+  <g transform="translate(420 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">m</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">模型</text><text x="18" y="96" class="mono muted" font-size="11">m.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">模型、额度与计费</text><circle cx="158" cy="25" r="5" class="accent"/></g>
+  <g transform="translate(606 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">h</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">枢纽</text><text x="18" y="96" class="mono muted" font-size="11">zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">品牌与产品入口</text><circle cx="158" cy="25" r="5" class="accent"/></g>
+  <g transform="translate(792 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">a</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">Agent</text><text x="18" y="96" class="mono muted" font-size="11">a.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">从对话完成真实任务</text><circle cx="158" cy="25" r="5" class="accent"/></g>
+  <g transform="translate(978 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">i</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">工作台</text><text x="18" y="96" class="mono muted" font-size="11">i.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">AI 时代的个人工作面</text><circle cx="158" cy="25" r="5" fill="#cfcac1"/></g>
 
-  <!-- z · 沙箱 sandbox -->
-  <g transform="translate(242 150)">
-    <rect width="164" height="165" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <text x="18" y="42" fill="#51d845" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="900">Z</text>
-    <text x="18" y="74" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="800">沙箱</text>
-    <text x="18" y="98" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">z.zmzai.cloud</text>
-    <circle cx="23" cy="118" r="4.5" fill="#d1d5db"/>
-    <text x="33" y="122" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">BUILDING</text>
-    <text x="18" y="146" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12">统一沙箱接入</text>
-  </g>
+  <line x1="48" y1="410" x2="1152" y2="410" class="line" stroke-width="1"/>
+  <text x="48" y="446" class="mono muted" font-size="11" letter-spacing="1.4">02 · RUNTIME SPINE</text>
+  <text x="1152" y="446" class="mono muted" font-size="11" text-anchor="end">Agent 请求的真实路径</text>
+  <g transform="translate(48 470)"><rect width="300" height="94" rx="2" fill="#f0fced"/><text x="20" y="31" class="mono accent" font-size="11" font-weight="700">01 / ORCHESTRATE</text><text x="20" y="61" class="sans ink" font-size="20" font-weight="700">Agent Framework</text><text x="20" y="81" class="sans muted" font-size="12">Session · Permission · Tool · Event</text></g>
+  <text x="362" y="526" class="mono accent" font-size="25">→</text>
+  <g transform="translate(420 470)"><rect width="300" height="94" rx="2" fill="#fff8ed"/><text x="20" y="31" class="mono" fill="#b45309" font-size="11" font-weight="700">02 / ROUTE</text><text x="20" y="61" class="sans ink" font-size="20" font-weight="700">Relay Model Plane</text><text x="20" y="81" class="sans muted" font-size="12">模型目录 · 余额 · 上游渠道</text></g>
+  <text x="734" y="526" class="mono accent" font-size="25">→</text>
+  <g transform="translate(792 470)"><rect width="360" height="94" rx="2" fill="#f6f2ff"/><text x="20" y="31" class="mono" fill="#7357b9" font-size="11" font-weight="700">03 / EXECUTE</text><text x="20" y="61" class="sans ink" font-size="20" font-weight="700">Sandbox / Local Client</text><text x="20" y="81" class="sans muted" font-size="12">云端容器，或经 Bridge 到用户本机</text></g>
 
-  <!-- m · 模型 relay -->
-  <g transform="translate(426 150)">
-    <rect width="164" height="165" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <text x="18" y="42" fill="#51d845" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="900">M</text>
-    <text x="18" y="74" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="800">模型</text>
-    <text x="18" y="98" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">m.zmzai.cloud</text>
-    <circle cx="23" cy="118" r="4.5" fill="#51d845"/>
-    <text x="33" y="122" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">LIVE</text>
-    <text x="18" y="146" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12">所有模型的统一接口</text>
-  </g>
-
-  <!-- h · 枢纽 hub -->
-  <g transform="translate(610 150)">
-    <rect width="164" height="165" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <text x="18" y="42" fill="#51d845" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="900">H</text>
-    <text x="18" y="74" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="800">枢纽</text>
-    <text x="18" y="98" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">zmzai.cloud</text>
-    <circle cx="23" cy="118" r="4.5" fill="#51d845"/>
-    <text x="33" y="122" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">LIVE</text>
-    <text x="18" y="146" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12">品牌首页与产品索引</text>
-  </g>
-
-  <!-- a · Agent -->
-  <g transform="translate(794 150)">
-    <rect width="164" height="165" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <text x="18" y="42" fill="#51d845" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="900">A</text>
-    <text x="18" y="74" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="800">Agent</text>
-    <text x="18" y="98" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">a.zmzai.cloud</text>
-    <circle cx="23" cy="118" r="4.5" fill="#51d845"/>
-    <text x="33" y="122" fill="#111111" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">LIVE</text>
-    <text x="18" y="146" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12">从对话完成真实任务</text>
-  </g>
-
-  <!-- i · 工作台 workos -->
-  <g transform="translate(978 150)">
-    <rect width="164" height="165" rx="10" fill="#ffffff" stroke="#e5e7eb" stroke-width="1.5"/>
-    <text x="18" y="42" fill="#51d845" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="32" font-weight="900">I</text>
-    <text x="18" y="74" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="21" font-weight="800">工作台</text>
-    <text x="18" y="98" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12">i.zmzai.cloud</text>
-    <circle cx="23" cy="118" r="4.5" fill="#d1d5db"/>
-    <text x="33" y="122" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="11" font-weight="700">PLANNED</text>
-    <text x="18" y="146" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="12">AI 时代的个人工作台</text>
-  </g>
-
-  <line x1="58" y1="352" x2="1142" y2="352" stroke="#e5e7eb" stroke-width="1.5"/>
-  <text x="600" y="398" fill="#111111" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="22" font-weight="800" text-anchor="middle">博客 + 课程 + 会员 + 支付 + 权益 + 反馈</text>
-  <text x="600" y="430" fill="#6b7280" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="14" text-anchor="middle">牧之署名站 · 把知识、工具、自动化串成一条可交付的产品线</text>
-  <text x="600" y="478" fill="#51d845" font-family="system-ui, -apple-system, BlinkMacSystemFont, 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif" font-size="24" font-weight="800" text-anchor="middle">知其末梢，智在云端。</text>
-  <text x="600" y="506" fill="#6b7280" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace" font-size="12" text-anchor="middle">zmzai.cloud · 知末智云 · 署名 牧之</text>
+  <line x1="48" y1="600" x2="1152" y2="600" class="line" stroke-width="1"/>
+  <text x="48" y="630" class="mono muted" font-size="11" letter-spacing="1.4">03 · SHARED FOUNDATION</text>
+  <text x="1152" y="630" class="mono muted" font-size="11" text-anchor="end">身份 · 状态 · 协议 · 执行边界</text>
+  <text x="48" y="671" class="sans ink" font-size="15">Auth</text><text x="224" y="671" class="sans ink" font-size="15">MongoDB</text><text x="420" y="671" class="sans ink" font-size="15">Bridge + Client</text><text x="686" y="671" class="sans ink" font-size="15">OpenSandbox</text><text x="912" y="671" class="sans ink" font-size="15">Theme · DB · Protocol</text>
+  <line x1="48" y1="686" x2="1152" y2="686" class="accent-stroke" stroke-width="3"/>
 </svg>
