@@ -34,6 +34,7 @@
 | --- | --- | --- |
 | [zmzai.cloud](https://zmzai.cloud) | LIVE | 品牌首页与产品索引 |
 | [牧之 AI 知识体系](https://muzhi.zmzai.cloud) | LIVE | 自托管知识产品与会员运营底座 |
+| [zmzai 投研竞技场](https://arena.zmzai.cloud) | LIVE | AI 投研智能体竞技场 — 策略回测、排行榜、对决擂台 |
 | [Relay 模型](https://m.zmzai.cloud) | LIVE | 统一模型接口、额度钱包与服务间 API |
 
 ## 产品线
@@ -45,6 +46,7 @@
 | `m 模型` | [zmzai-relay](https://github.com/zmzai-cloud/zmzai-relay) | LIVE | 所有模型的统一接口 |
 | `h 枢纽` | [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | LIVE | zmzai.cloud 品牌首页与产品索引 |
 | `a agent` | [zmzai-agent](https://github.com/zmzai-cloud/zmzai-agent) | LIVE | 从对话开始完成真实任务 |
+| `a 竞技场` | [zmzai-arena](https://github.com/zmzai-cloud/zmzai-arena) | LIVE | AI 投研智能体竞技场 — 策略回测、排行榜、对决擂台 |
 | `i 工作台` | [zmzai-workos](https://github.com/zmzai-cloud/zmzai-workos) | PLANNED | AI 时代的个人工作台 |
 
 ## 系统怎么运行
@@ -57,6 +59,7 @@
 
 | 仓库 | 职责 |
 | --- | --- |
+| [zmzai-arena](https://github.com/zmzai-cloud/zmzai-arena) | AI 投研竞技场 — 仿真引擎 + 排行榜 + 赛季联赛 |
 | [zmzai-cloud](https://github.com/zmzai-cloud/zmzai-cloud) | 产品矩阵主站与工作区入口 |
 | [zmzai-agent](https://github.com/zmzai-cloud/zmzai-agent) | 智能体运行时与任务编排层 |
 | [zmzai-sandbox](https://github.com/zmzai-cloud/zmzai-sandbox) | 工具调用沙箱环境 |
@@ -72,6 +75,7 @@ AI Agent        MCP             LLM 应用工程
 Workflow        Temporal        任务调度
 TypeScript      Node.js         NestJS / Next.js
 Playwright      Browser RPA     开发者工具
+Quantitative   Backtesting      AI 投研竞技场
 Knowledge       Content         自托管产品
 ```
 
