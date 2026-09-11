@@ -1,44 +1,121 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720" role="img" aria-labelledby="title desc">
-  <title id="title">知末智云产品矩阵与系统底座</title>
-  <desc id="desc">知末智云的六条产品线，以及 Agent、Relay、Sandbox 和本机客户端组成的执行链。</desc>
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="964" viewBox="0 0 1200 964" role="img" aria-labelledby="title desc">
+  <title id="title">知末智云 · 产品系统图 2026</title>
+  <desc id="desc">知末智云三层系统：agent-framework 内核、Lectern 桌面工作台与产品矩阵，以及共享底座。</desc>
   <style>
-    .ink { fill:#26231f; }
-    .muted { fill:#817b72; }
-    .line { stroke:#e6e3dc; }
-    .accent { fill:#63e65b; }
-    .accent-stroke { stroke:#63e65b; }
+    .ink { fill:#2f2f34; }
+    .ink2 { fill:#6b6b73; }
+    .ink3 { fill:#94949c; }
+    .line { stroke:#e9e9ec; }
+    .rule { stroke:#2f2f34; }
+    .spot-strong { fill:#FF00A8; }
+    .spot { fill:#FF42BB; }
+    .live { fill:#00A25C; }
     .mono { font-family:'JetBrains Mono','SFMono-Regular',Menlo,Consolas,monospace; }
     .sans { font-family:'MiSans','PingFang SC','Microsoft YaHei',sans-serif; }
-    .serif { font-family:'Noto Serif SC','Songti SC',serif; }
+    .serif { font-family:'Noto Serif SC','Songti SC','SimSun',serif; }
   </style>
-  <rect width="1200" height="720" fill="#fdfdfc"/>
-  <text x="48" y="54" class="mono muted" font-size="13" letter-spacing="2">ZMZAI / PRODUCT SYSTEM</text>
-  <text x="48" y="104" class="serif ink" font-size="42" font-weight="700">知末智云</text>
-  <text x="48" y="136" class="sans muted" font-size="17">把智能体、模型、执行环境和知识交付组织成一套可运行的产品系统。</text>
-  <text x="1152" y="58" class="mono muted" font-size="12" text-anchor="end">PROFILE / 2026</text>
-  <line x1="48" y1="166" x2="1152" y2="166" class="line" stroke-width="1"/>
-  <text x="48" y="202" class="mono muted" font-size="11" letter-spacing="1.4">01 · PRODUCT MATRIX</text>
-  <text x="1152" y="202" class="mono muted" font-size="11" text-anchor="end">六条产品线 · 一个品牌入口</text>
 
-  <g transform="translate(48 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">牧</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">牧之</text><text x="18" y="96" class="mono muted" font-size="11">muzhi.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">知识产品交付闭环</text><circle cx="158" cy="25" r="5" class="accent"/></g>
-  <g transform="translate(234 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">z</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">沙箱</text><text x="18" y="96" class="mono muted" font-size="11">z.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">统一受限执行</text><circle cx="158" cy="25" r="5" fill="#cfcac1"/></g>
-  <g transform="translate(420 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">m</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">模型</text><text x="18" y="96" class="mono muted" font-size="11">m.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">模型、额度与计费</text><circle cx="158" cy="25" r="5" class="accent"/></g>
-  <g transform="translate(606 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">h</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">枢纽</text><text x="18" y="96" class="mono muted" font-size="11">zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">品牌与产品入口</text><circle cx="158" cy="25" r="5" class="accent"/></g>
-  <g transform="translate(792 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">a</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">Agent</text><text x="18" y="96" class="mono muted" font-size="11">a.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">从对话完成真实任务</text><circle cx="158" cy="25" r="5" class="accent"/></g>
-  <g transform="translate(978 224)"><rect width="174" height="150" rx="2" fill="#fff" stroke="#e6e3dc"/><text x="18" y="40" class="mono accent" font-size="31" font-weight="700">i</text><text x="18" y="73" class="sans ink" font-size="21" font-weight="700">工作台</text><text x="18" y="96" class="mono muted" font-size="11">i.zmzai.cloud</text><text x="18" y="126" class="sans muted" font-size="12">AI 时代的个人工作面</text><circle cx="158" cy="25" r="5" fill="#cfcac1"/></g>
+  <!-- masthead -->
+  <rect width="1200" height="6" fill="#2f2f34"/>
+  <text x="48" y="44" class="mono ink3" font-size="11" letter-spacing="2">ZMZAI · 知末智云 / SELF-HOSTED AI SYSTEM</text>
+  <text x="1152" y="44" class="mono ink3" font-size="11" text-anchor="end" letter-spacing="1.5">GITHUB PROFILE · 2026-09</text>
+  <line x1="48" y1="60" x2="1152" y2="60" class="line"/>
 
-  <line x1="48" y1="410" x2="1152" y2="410" class="line" stroke-width="1"/>
-  <text x="48" y="446" class="mono muted" font-size="11" letter-spacing="1.4">02 · RUNTIME SPINE</text>
-  <text x="1152" y="446" class="mono muted" font-size="11" text-anchor="end">Agent 请求的真实路径</text>
-  <g transform="translate(48 470)"><rect width="300" height="94" rx="2" fill="#f0fced"/><text x="20" y="31" class="mono accent" font-size="11" font-weight="700">01 / ORCHESTRATE</text><text x="20" y="61" class="sans ink" font-size="20" font-weight="700">Agent Framework</text><text x="20" y="81" class="sans muted" font-size="12">Session · Permission · Tool · Event</text></g>
-  <text x="362" y="526" class="mono accent" font-size="25">→</text>
-  <g transform="translate(420 470)"><rect width="300" height="94" rx="2" fill="#fff8ed"/><text x="20" y="31" class="mono" fill="#b45309" font-size="11" font-weight="700">02 / ROUTE</text><text x="20" y="61" class="sans ink" font-size="20" font-weight="700">Relay Model Plane</text><text x="20" y="81" class="sans muted" font-size="12">模型目录 · 余额 · 上游渠道</text></g>
-  <text x="734" y="526" class="mono accent" font-size="25">→</text>
-  <g transform="translate(792 470)"><rect width="360" height="94" rx="2" fill="#f6f2ff"/><text x="20" y="31" class="mono" fill="#7357b9" font-size="11" font-weight="700">03 / EXECUTE</text><text x="20" y="61" class="sans ink" font-size="20" font-weight="700">Sandbox / Local Client</text><text x="20" y="81" class="sans muted" font-size="12">云端容器，或经 Bridge 到用户本机</text></g>
+  <!-- hero -->
+  <image x="48" y="82" width="88" height="88" href="data:image/png;base64,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"/>
+  <text x="160" y="152" class="serif ink" font-size="66" font-weight="700" letter-spacing="6">知末智云</text>
+  <text x="162" y="188" class="sans ink2" font-size="16.5">云端推理 · 本机执行 —— 一套自托管的 AI 产品系统：内核、平台与产品三层。</text>
+  <g>
+    <rect x="1080" y="84" width="72" height="72" rx="3" class="spot-strong"/>
+    <rect x="1085.5" y="89.5" width="61" height="61" rx="2" fill="none" stroke="#ffffff" stroke-opacity="0.85" stroke-width="1.5"/>
+    <text x="1116" y="115" class="serif" fill="#ffffff" font-size="25" font-weight="700" text-anchor="middle">知</text>
+    <text x="1116" y="145" class="serif" fill="#ffffff" font-size="25" font-weight="700" text-anchor="middle">末</text>
+  </g>
 
-  <line x1="48" y1="600" x2="1152" y2="600" class="line" stroke-width="1"/>
-  <text x="48" y="630" class="mono muted" font-size="11" letter-spacing="1.4">03 · SHARED FOUNDATION</text>
-  <text x="1152" y="630" class="mono muted" font-size="11" text-anchor="end">身份 · 状态 · 协议 · 执行边界</text>
-  <text x="48" y="671" class="sans ink" font-size="15">Auth</text><text x="224" y="671" class="sans ink" font-size="15">MongoDB</text><text x="420" y="671" class="sans ink" font-size="15">Bridge + Client</text><text x="686" y="671" class="sans ink" font-size="15">OpenSandbox</text><text x="912" y="671" class="sans ink" font-size="15">Theme · DB · Protocol</text>
-  <line x1="48" y1="686" x2="1152" y2="686" class="accent-stroke" stroke-width="3"/>
+  <line x1="48" y1="220" x2="1152" y2="220" class="rule" stroke-width="2"/>
+
+  <!-- 01 kernel -->
+  <text x="48" y="252" class="mono ink3" font-size="11" letter-spacing="1.6">01 · AGENT KERNEL</text>
+  <text x="1152" y="252" class="mono ink3" font-size="11" text-anchor="end">一套内核 · 两个运行面</text>
+
+  <g>
+    <rect x="48" y="272" width="544" height="196" rx="4" fill="#1e1e22"/>
+    <text x="72" y="302" class="mono spot" font-size="11" letter-spacing="1.4">@ZMZAI/AGENT-FRAMEWORK · NPM 0.4.1</text>
+    <text x="72" y="338" class="sans" fill="#f4f4f5" font-size="26" font-weight="700">agent-framework</text>
+    <text x="72" y="364" class="mono" fill="#a8a8b0" font-size="12">sessions · permissions · tools · events · compaction</text>
+    <text x="72" y="382" class="mono" fill="#a8a8b0" font-size="12">sandbox · provider · subagents · mcp</text>
+    <g class="mono" font-size="10.5" fill="#cfcfd4">
+      <rect x="72" y="398" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="82" y="415">SESSION ×2</text>
+      <rect x="198" y="398" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="208" y="415">EVENT 溯源</text>
+      <rect x="324" y="398" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="334" y="415">PERMISSION</text>
+      <rect x="450" y="398" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="460" y="415">TOOLS ×20+</text>
+      <rect x="72" y="432" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="82" y="449">SANDBOX</text>
+      <rect x="198" y="432" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="208" y="449">PROVIDER</text>
+      <rect x="324" y="432" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="334" y="449">MCP ×3</text>
+      <rect x="450" y="432" width="118" height="26" rx="2" fill="#26262b" stroke="#34343a"/><text x="460" y="449">SUBAGENT</text>
+    </g>
+  </g>
+
+  <text x="596" y="326" class="mono ink3" font-size="20">→</text>
+  <text x="596" y="434" class="mono ink3" font-size="20">→</text>
+
+  <g>
+    <rect x="624" y="272" width="528" height="92" rx="4" fill="#ffffff" class="line"/>
+    <circle cx="650" cy="298" r="5" class="live"/>
+    <text x="666" y="304" class="sans ink" font-size="18" font-weight="700">zmzai-agent · 云端平台</text>
+    <text x="666" y="327" class="sans ink2" font-size="12">Mongo workspace · skills · memory · 审批</text>
+    <text x="666" y="348" class="mono ink3" font-size="10.5">a.zmzai.cloud</text>
+  </g>
+  <g>
+    <rect x="624" y="380" width="528" height="92" rx="4" fill="#f8f8f9" class="line"/>
+    <rect x="624" y="380" width="5" height="92" class="spot-strong"/>
+    <circle cx="651" cy="406" r="5" class="spot-strong"/>
+    <text x="666" y="412" class="sans ink" font-size="18" font-weight="700">Lectern · 桌面工作台</text>
+    <text x="666" y="435" class="sans ink2" font-size="12">fs workspace · terminal · checkpoints · audit.db</text>
+    <text x="666" y="456" class="mono ink3" font-size="10.5">lectern.zmzai.cloud</text>
+  </g>
+
+  <text x="48" y="496" class="mono ink3" font-size="10.5" letter-spacing="1.4">SHARED FOUNDATION</text>
+  <g class="mono ink2" font-size="11">
+    <rect x="48" y="506" width="168" height="24" rx="2" fill="#ffffff" class="line"/><text x="60" y="522">@zmzai/theme v0.9.11</text>
+    <rect x="226" y="506" width="176" height="24" rx="2" fill="#ffffff" class="line"/><text x="238" y="522">zmzai-db · 共享模型</text>
+    <rect x="412" y="506" width="196" height="24" rx="2" fill="#ffffff" class="line"/><text x="424" y="522">zmzai-contracts · 事件契约</text>
+    <rect x="618" y="506" width="216" height="24" rx="2" fill="#ffffff" class="line"/><text x="630" y="522">zmzai-bridge-protocol · 线协议</text>
+  </g>
+
+  <line x1="48" y1="556" x2="1152" y2="556" class="rule" stroke-width="2"/>
+
+  <!-- 02 lectern -->
+  <text x="48" y="588" class="mono ink3" font-size="11" letter-spacing="1.6">02 · FLAGSHIP — LECTERN</text>
+  <text x="1152" y="588" class="mono ink3" font-size="11" text-anchor="end">v0.5.1 · macOS / WINDOWS</text>
+  <g>
+    <rect x="48" y="604" width="1104" height="104" rx="4" fill="#f8f8f9" class="line"/>
+    <rect x="48" y="604" width="6" height="104" class="spot-strong"/>
+    <text x="86" y="646" class="serif ink" font-size="28" font-weight="700">Lectern</text>
+    <text x="88" y="672" class="sans ink2" font-size="13">桌面级 Agent 工作台 —— 云端推理、本机执行；会话与审计留在你自己的磁盘上。</text>
+    <text x="88" y="694" class="mono ink2" font-size="11">REWIND 回卷 · SSE RESUME 续传 · O(1) 投影 · SHIKI DIFF · CMD-K · AUDIT.DB · MENUBAR</text>
+    <text x="1128" y="644" class="mono ink" font-size="12" text-anchor="end">lectern.zmzai.cloud</text>
+    <text x="1128" y="664" class="mono ink3" font-size="10.5" text-anchor="end">macOS dmg · Windows nsis</text>
+  </g>
+
+  <line x1="48" y1="736" x2="1152" y2="736" class="rule" stroke-width="2"/>
+
+  <!-- 03 matrix -->
+  <text x="48" y="768" class="mono ink3" font-size="11" letter-spacing="1.6">03 · PRODUCT MATRIX</text>
+  <text x="1152" y="768" class="mono ink3" font-size="11" text-anchor="end">产品即入口 · 一个品牌</text>
+  <g>
+    <rect x="48" y="786" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="70" cy="812" r="4" class="live"/><text x="84" y="808" class="sans ink" font-size="15" font-weight="700">Hub 枢纽</text><text x="84" y="827" class="mono ink3" font-size="10">zmzai.cloud</text>
+    <rect x="328" y="786" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="350" cy="812" r="4" class="live"/><text x="364" y="808" class="sans ink" font-size="15" font-weight="700">牧之</text><text x="364" y="827" class="mono ink3" font-size="10">muzhi.zmzai.cloud</text>
+    <rect x="608" y="786" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="630" cy="812" r="4" class="live"/><text x="644" y="808" class="sans ink" font-size="15" font-weight="700">Relay 模型</text><text x="644" y="827" class="mono ink3" font-size="10">m.zmzai.cloud</text>
+    <rect x="888" y="786" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="910" cy="812" r="4" class="live"/><text x="924" y="808" class="sans ink" font-size="15" font-weight="700">Agent 编排</text><text x="924" y="827" class="mono ink3" font-size="10">a.zmzai.cloud</text>
+    <rect x="48" y="854" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="70" cy="880" r="4" class="live"/><text x="84" y="876" class="sans ink" font-size="15" font-weight="700">Arena 竞技场</text><text x="84" y="895" class="mono ink3" font-size="10">arena.zmzai.cloud</text>
+    <rect x="328" y="854" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="350" cy="880" r="4" class="live"/><text x="364" y="876" class="sans ink" font-size="15" font-weight="700">Data 行情</text><text x="364" y="895" class="mono ink3" font-size="10">data.zmzai.cloud</text>
+    <rect x="608" y="854" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="630" cy="880" r="4" fill="none" stroke="#94949c" stroke-width="1.5"/><text x="644" y="876" class="sans ink" font-size="15" font-weight="700">Sandbox 沙箱</text><text x="644" y="895" class="mono ink3" font-size="10">z.zmzai.cloud</text>
+    <rect x="888" y="854" width="264" height="52" rx="3" fill="#ffffff" class="line"/><circle cx="910" cy="880" r="4" fill="none" stroke="#94949c" stroke-width="1.5"/><text x="924" y="876" class="sans ink" font-size="15" font-weight="700">WorkOS 工作台</text><text x="924" y="895" class="mono ink3" font-size="10">i.zmzai.cloud</text>
+  </g>
+
+  <!-- footer -->
+  <line x1="48" y1="926" x2="1152" y2="926" class="rule" stroke-width="3"/>
+  <text x="48" y="950" class="mono ink3" font-size="11">zmzai.cloud · 知末智云 · 署名 牧之</text>
+  <text x="1152" y="950" class="serif ink2" font-size="12" text-anchor="end">知其末梢，智在云端。</text>
 </svg>
