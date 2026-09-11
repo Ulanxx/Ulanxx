@@ -26,7 +26,7 @@
 
 > 知其末梢，智在云端。
 
-我在做一套可独立部署的 AI 产品系统。它长成了三层：**内核**（agent-framework、theme、contracts）负责会话、权限、工具与协议；**平台**（Relay、Auth、Sandbox、Billing）负责模型、身份、执行与结算；**产品**（Lectern、Agent、Arena、牧之、Data）把能力交付到桌面和浏览器。
+我在做一套可独立部署的 AI 产品系统。它长成了三层：**内核**（agent-framework、theme、contracts）负责会话、权限、工具与协议；**平台**（Relay、Auth、Sandbox、Billing）负责模型、身份、执行与结算；**产品**（Lectern、Agent、Arena、牧之、Data、Memory）把能力交付到桌面和浏览器。
 
 重点不是把功能堆在一个 demo 里，而是把链路跑成闭环：用户能登录、调用、执行、留痕，服务之间能校验身份、结算额度、恢复状态。
 
@@ -86,13 +86,14 @@
 | --- | --- | --- | --- |
 | Hub 枢纽 | [zmzai.cloud](https://zmzai.cloud) | LIVE | 品牌首页与产品索引 |
 | Lectern 工作台 | [lectern.zmzai.cloud](https://lectern.zmzai.cloud) | LIVE | 桌面 Agent 工作台 |
-| Agent 编排 | [a.zmzai.cloud](https://a.zmzai.cloud) | LIVE | 从对话开始完成真实任务 |
-| Relay 模型 | [m.zmzai.cloud](https://m.zmzai.cloud) | LIVE | 模型目录、额度钱包与服务间 API |
+| Agent 编排 | [agent.zmzai.cloud](https://agent.zmzai.cloud) | LIVE | 从对话开始完成真实任务 |
+| Relay 模型 | [relay.zmzai.cloud](https://relay.zmzai.cloud) | LIVE | 模型目录、额度钱包与服务间 API |
 | Arena 竞技场 | [arena.zmzai.cloud](https://arena.zmzai.cloud) | LIVE | AI 投研竞技场 — 回测、排行榜、对决擂台 |
 | 牧之 | [muzhi.zmzai.cloud](https://muzhi.zmzai.cloud) | LIVE | 署名站 — 博客 + 付费知识体系 |
 | Data 行情 | [data.zmzai.cloud](https://data.zmzai.cloud) | LIVE | A 股 + 加密货币统一行情服务 |
-| Sandbox 沙箱 | [zmzai-sandbox](https://github.com/zmzai-cloud/zmzai-sandbox) | BUILDING | 为 Agent 提供统一受限执行 |
-| WorkOS 工作台 | [zmzai-workos](https://github.com/zmzai-cloud/zmzai-workos) | PLANNED | AI 时代的个人工作面 |
+| Memory 记忆 | [memory.zmzai.cloud](https://memory.zmzai.cloud) | LIVE | Tome 卷帙 — hindsight 长期记忆管理台（暂未开源） |
+| Sandbox 沙箱 | [sandbox.zmzai.cloud](https://sandbox.zmzai.cloud) | LIVE | 为 Agent 提供统一受限执行 |
+| WorkOS 工作台 | [workos.zmzai.cloud](https://workos.zmzai.cloud) | BUILDING | AI 时代的个人工作面（视觉底盘已上线） |
 
 ## 仓库全览
 
@@ -134,6 +135,13 @@
 | [zmzai-client](https://github.com/zmzai-cloud/zmzai-client) | Electron 桌面桥 — 本机执行端点 + 审批 + 审计 |
 | [zmzai-status](https://github.com/zmzai-cloud/zmzai-status) | 全站状态页 — 健康探测 + 翻转告警 |
 | [.github](https://github.com/zmzai-cloud/.github) | 组织主页介绍 |
+
+**已部署、暂未开源**
+
+| 项目 | 入口 | 说明 |
+| --- | --- | --- |
+| zmzai-memory（Tome 卷帙） | [memory.zmzai.cloud](https://memory.zmzai.cloud) | hindsight 长期记忆的管理台 — bank 浏览、搜索与权限 |
+| hindsight | 内部 :8888 | 自部署的长期记忆引擎，memory 的上游 |
 
 </details>
 
