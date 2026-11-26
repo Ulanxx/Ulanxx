@@ -32,7 +32,7 @@
 
 ## 整体框架 —— 一套内核，两个运行面
 
-[zmzai-framework](https://github.com/zmzai-cloud/zmzai-framework) 是整个系统的 coding agent 内核，以 npm 包 [**@zmzai/agent-framework**](https://www.npmjs.com/package/@zmzai/agent-framework)（`v0.4.1`）发布，从 zmzai-agent 经 subtree split 抽出独立演进，git 历史完整。云端平台与桌面工作台共用同一份会话、权限与工具协议——差别只在装配：一边接 Mongo workspace，一边接本机文件系统。
+[zmzai-framework](https://github.com/zmzai-cloud/zmzai-framework) 是整个系统的 coding agent 内核，以 npm 包 [**@zmzai/agent-framework**](https://www.npmjs.com/package/@zmzai/agent-framework)（`v0.19.9`）发布，从 zmzai-agent 经 subtree split 抽出独立演进，git 历史完整。云端平台与桌面工作台共用同一份会话、权限与工具协议——差别只在装配：一边接 Mongo workspace，一边接本机文件系统。
 
 | 能力 | 说明 |
 | --- | --- |
@@ -57,14 +57,14 @@
 
 | 仓库 | 职责 |
 | --- | --- |
-| [zmzai-theme](https://github.com/zmzai-cloud/zmzai-theme) | 全品牌设计系统 [@zmzai/theme](https://www.npmjs.com/package/@zmzai/theme) `v0.9.11` · 53 组件 |
+| [zmzai-theme](https://github.com/zmzai-cloud/zmzai-theme) | 全品牌设计系统 [@zmzai/theme](https://www.npmjs.com/package/@zmzai/theme) `v0.9.16` · 53 组件 |
 | [zmzai-db](https://github.com/zmzai-cloud/zmzai-db) | 产品线共享 Mongoose 模型 |
 | [zmzai-contracts](https://github.com/zmzai-cloud/zmzai-contracts) | 跨服务事件契约（usage.recorded / span.closed） |
 | [zmzai-bridge-protocol](https://github.com/zmzai-cloud/zmzai-bridge-protocol) | 桌面端 ↔ 云端线协议 |
 
 ## Lectern —— 桌面 Agent 工作台
 
-[lectern.zmzai.cloud](https://lectern.zmzai.cloud) · [源码](https://github.com/zmzai-cloud/zmzai-lectern) · `v0.5.1`
+[lectern.zmzai.cloud](https://lectern.zmzai.cloud) · [源码](https://github.com/zmzai-cloud/zmzai-lectern) · `v0.18.0`
 
 **云端推理，本机执行。** Web 与 Electron 加载同一套 Next.js 页面：推理走 Relay，文件读写、命令执行、git 操作在本机沙箱完成，会话与审计留在你自己的磁盘上。
 
@@ -77,6 +77,7 @@
 | 命令面板 | Cmd-K / Cmd-P / Cmd-Shift-F 三模式，键盘优先 |
 | 权限审计 | 每次写文件、执行命令都落独立 audit.db |
 | 托盘常驻 | 菜单栏看运行状态，任务完成发系统通知 |
+| 长期记忆 | hindsight 召回注入 · 候选提炼待审 · 每项目本地库 |
 
 下载见 [lectern.zmzai.cloud](https://lectern.zmzai.cloud)：macOS dmg（Apple Silicon）· Windows nsis 安装器。
 
@@ -87,7 +88,7 @@
 | Hub 枢纽 | [zmzai.cloud](https://zmzai.cloud) | LIVE | 品牌首页与产品索引 |
 | Lectern 工作台 | [lectern.zmzai.cloud](https://lectern.zmzai.cloud) | LIVE | 桌面 Agent 工作台 |
 | Agent 编排 | [agent.zmzai.cloud](https://agent.zmzai.cloud) | LIVE | 从对话开始完成真实任务 |
-| Relay 模型 | [relay.zmzai.cloud](https://relay.zmzai.cloud) | LIVE | 模型目录、额度钱包与服务间 API |
+| Relay 模型 | [relay.zmzai.cloud](https://relay.zmzai.cloud) | LIVE | 自托管 LLM API 中转站 — OpenAI 兼容 · 多渠道路由 · 按 token 计费（已开源） |
 | Arena 竞技场 | [arena.zmzai.cloud](https://arena.zmzai.cloud) | LIVE | AI 投研竞技场 — 回测、排行榜、对决擂台 |
 | 牧之 | [muzhi.zmzai.cloud](https://muzhi.zmzai.cloud) | LIVE | 署名站 — 博客 + 付费知识体系 |
 | Data 行情 | [data.zmzai.cloud](https://data.zmzai.cloud) | LIVE | A 股 + 加密货币统一行情服务 |
@@ -127,7 +128,7 @@
 
 | 仓库 | 职责 |
 | --- | --- |
-| [zmzai-relay](https://github.com/zmzai-cloud/zmzai-relay) | 模型目录、额度钱包与服务间 API |
+| [relay](https://github.com/zmzai-cloud/relay) | 自托管 LLM API 中转站 — OpenAI 兼容 · 多渠道路由 · 按 token 计费 |
 | [zmzai-auth](https://github.com/zmzai-cloud/zmzai-auth) | 产品线单点登录服务 |
 | [zmzai-sandbox](https://github.com/zmzai-cloud/zmzai-sandbox) | 受限代码执行层与 Sandbox Runner |
 | [zmzai-billing](https://github.com/zmzai-cloud/zmzai-billing) | 计量计费中台 — usage 账本 + entitlement + Paddle |
