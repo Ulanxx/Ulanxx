@@ -35,7 +35,7 @@
 - **[@zmzai/agent-framework](https://www.npmjs.com/package/@zmzai/agent-framework)** — coding agent 内核 · sessions / permissions / tools / events
 - **[牧之](https://github.com/zmzai-cloud/muzhi)** — 自托管知识付费站与内容交付
 
-产品矩阵与全部 21 仓 → **[@zmzai-cloud](https://github.com/zmzai-cloud)**
+产品矩阵与全部仓库 → **[@zmzai-cloud](https://github.com/zmzai-cloud)**
 
 ## 技术关注
 
