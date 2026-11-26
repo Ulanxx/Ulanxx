@@ -21,7 +21,7 @@
 ---
 
 <p align="center">
-  <img src="./assets/zmzai-system-map.svg" alt="知末智云产品系统图" />
+  <img src="./assets/zmzai-architecture.svg" alt="zmzai 系统架构图：同一套内核装配成云端 zmzai-agent 与桌面 Lectern 两个运行面，都经 Relay 推理；执行落在云端 Sandbox 或用户本机" />
 </p>
 
 > 知其末梢，智在云端。

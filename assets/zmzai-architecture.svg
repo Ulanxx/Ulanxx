@@ -1,0 +1,136 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="454" viewBox="0 0 840 454" role="img" aria-labelledby="t d">
+  <title id="t">zmzai 系统架构</title>
+  <desc id="d">一套内核 @zmzai/agent-framework 装配成两个运行面：云端的 zmzai-agent 与桌面端的 Lectern，两者都经 Relay 推理。执行落在两条边界之一：云端 Sandbox 容器，或用户本机。共享底座为 Auth、theme、db、contracts。</desc>
+  <defs>
+    <marker id="ar" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto" markerUnits="userSpaceOnUse">
+      <path d="M0.5 0.5 L7.5 4 L0.5 7.5 Z" fill="#16181C"/>
+    </marker>
+    <style>
+      .s { font-family:'MiSans',-apple-system,BlinkMacSystemFont,'PingFang SC','Hiragino Sans GB','Microsoft YaHei',system-ui,sans-serif; }
+      .m { font-family:'JetBrains Mono',ui-monospace,'SFMono-Regular',Menlo,Consolas,monospace; }
+      .ink { fill:#16181C; }
+      .ink2 { fill:#4E535D; }
+      .ink3 { fill:#81858E; }
+      .dk { fill:#F4F5F6; }
+      .k { font-size:12px; font-weight:500; letter-spacing:0.02em; }
+      .b { font-size:14px; font-weight:400; }
+      .t { font-size:17px; font-weight:600; }
+      .box { fill:#FFFFFF; stroke:#16181C; stroke-width:1.25; }
+      .a { fill:none; stroke:#16181C; stroke-width:1.5; }
+    </style>
+  </defs>
+
+  <rect width="840" height="454" fill="#FFFFFF"/>
+  <rect width="840" height="6" fill="#16181C"/>
+
+  <!-- masthead: brand lockup (cloud mark + ZMZAI wordmark) -->
+  <image x="28" y="22" width="34" height="34" href="data:image/png;base64,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"/>
+  <text x="72" y="48" class="s ink" font-size="25" font-weight="600" letter-spacing="-0.5">ZMZAI</text>
+  <text x="812" y="34" text-anchor="end" class="m ink2" font-size="12" letter-spacing="0.7">ARCHITECTURE · 系统架构</text>
+  <text x="812" y="56" text-anchor="end" class="s ink" font-size="14" font-weight="500">一套内核 · 两个运行面 · 两条执行边界</text>
+
+  <!-- kernel: one band spanning both surfaces -->
+  <rect y="80" width="840" height="56" fill="#16181C"/>
+  <rect y="80" width="5" height="56" fill="#FF00A8"/>
+  <text x="28" y="102" class="m" fill="#FF42BB" font-size="12" letter-spacing="1">KERNEL · 内核</text>
+  <text x="28" y="126" class="s dk" font-size="17" font-weight="600">@zmzai/agent-framework</text>
+  <text x="812" y="105" text-anchor="end" class="m dk" font-size="14">sessions · permissions · tools</text>
+  <text x="812" y="125" text-anchor="end" class="m dk" font-size="14">events · subagents · runner</text>
+
+  <!-- kernel is assembled into each surface -->
+  <line x1="150" y1="136" x2="150" y2="171" class="a" marker-end="url(#ar)"/>
+  <line x1="732" y1="136" x2="732" y2="171" class="a" marker-end="url(#ar)"/>
+
+  <!-- zone: cloud -->
+  <rect x="28" y="140" width="492" height="250" fill="#F4F4F6"/>
+  <g fill="none" stroke="#4E535D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(46 142) scale(0.6)">
+    <rect x="2" y="2" width="20" height="8" rx="2"/>
+    <rect x="2" y="14" width="20" height="8" rx="2"/>
+    <line x1="6" y1="6" x2="6.01" y2="6"/>
+    <line x1="6" y1="18" x2="6.01" y2="18"/>
+  </g>
+  <text x="66" y="154" class="s ink2 k" letter-spacing="0.7">云端 CLOUD</text>
+
+  <!-- zone: device -->
+  <g fill="none" stroke="#4E535D" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" transform="translate(552 142) scale(0.6)">
+    <rect x="4" y="4" width="16" height="11" rx="1.5"/>
+    <path d="M2 19h20"/>
+  </g>
+  <text x="572" y="154" class="s ink2 k" letter-spacing="0.7">你的设备 DEVICE</text>
+
+  <!-- surface: cloud -->
+  <rect data-box="agent" x="46" y="172" width="208" height="96" rx="4" class="box"/>
+  <g data-in="agent">
+    <text x="62" y="193" class="s ink2 k">运行面 · 云端</text>
+    <text x="62" y="217" class="s ink t">zmzai-agent</text>
+    <text x="62" y="238" class="s ink2 b">Mongo workspace</text>
+    <text x="62" y="256" class="s ink2 b">skills · memory · 审批</text>
+  </g>
+
+  <!-- platform: model access -->
+  <rect data-box="relay" x="290" y="172" width="212" height="96" rx="4" class="box"/>
+  <g data-in="relay">
+    <text x="306" y="193" class="s ink2 k">模型接入</text>
+    <text x="306" y="217" class="s ink t">Relay</text>
+    <rect x="366" y="203" width="44" height="20" rx="10" fill="#FFFFFF" stroke="#16181C"/>
+    <text x="388" y="217" text-anchor="middle" class="s ink" font-size="12" font-weight="500">开源</text>
+    <text x="306" y="238" class="s ink2 b">OpenAI 兼容 · 多渠道路由</text>
+    <text x="306" y="256" class="s ink2 b">按 token 计费</text>
+  </g>
+
+  <!-- surface: device (flagship) -->
+  <rect data-box="lectern" x="552" y="172" width="260" height="96" rx="4" fill="#16181C"/>
+  <g data-in="lectern">
+    <text x="568" y="193" class="s ink3 k">运行面 · 桌面</text>
+    <text x="568" y="217" class="s dk t">Lectern</text>
+    <text x="568" y="238" class="s dk b">云端推理 · 本机执行</text>
+    <text x="568" y="256" class="s dk b">terminal · checkpoints</text>
+  </g>
+
+  <!-- execution boundary A: cloud container -->
+  <rect data-box="sandbox" x="46" y="300" width="208" height="76" rx="4" class="box"/>
+  <g data-in="sandbox">
+    <text x="62" y="321" class="s ink2 k">执行边界 A</text>
+    <text x="62" y="344" class="s ink t">Sandbox</text>
+    <text x="62" y="363" class="s ink2 b">云端容器 · 受限代码执行</text>
+  </g>
+
+  <!-- long-term memory -->
+  <rect data-box="memory" x="290" y="300" width="212" height="76" rx="4" class="box"/>
+  <g data-in="memory">
+    <text x="306" y="321" class="s ink2 k">长期记忆</text>
+    <text x="306" y="344" class="s ink t">Memory</text>
+    <text x="306" y="363" class="s ink2 b">召回注入 · 候选提炼待审</text>
+  </g>
+
+  <!-- execution boundary B: the user's machine -->
+  <rect data-box="local" x="580" y="300" width="232" height="76" rx="4" class="box"/>
+  <g data-in="local">
+    <text x="596" y="321" class="s ink2 k">执行边界 B</text>
+    <text x="596" y="344" class="s ink t">本机沙箱</text>
+    <text x="596" y="363" class="s ink2 b">文件 · 终端 · git · audit.db</text>
+  </g>
+
+  <!-- flows -->
+  <line x1="254" y1="218" x2="289" y2="218" class="a" marker-end="url(#ar)"/>
+  <text x="272" y="210" text-anchor="middle" class="s ink2 k">推理</text>
+
+  <line x1="552" y1="218" x2="503" y2="218" class="a" marker-end="url(#ar)"/>
+  <text x="527" y="210" text-anchor="middle" class="s ink2 k">推理</text>
+
+  <line x1="150" y1="268" x2="150" y2="299" class="a" marker-end="url(#ar)"/>
+  <text x="160" y="288" class="s ink2 k">容器执行</text>
+
+  <path d="M564 268 V336 H503" class="a" marker-end="url(#ar)"/>
+  <text x="508" y="328" class="s ink2 k">记忆召回</text>
+
+  <line x1="696" y1="268" x2="696" y2="299" class="a" marker-end="url(#ar)"/>
+  <text x="706" y="288" class="s ink2 k">本机执行</text>
+
+  <!-- shared foundation -->
+  <line x1="28" y1="406" x2="812" y2="406" stroke="#E3E4E7"/>
+  <text x="28" y="430" class="s ink2 k" letter-spacing="0.7">共享底座</text>
+  <text x="110" y="430" class="s ink2 b">Auth 单点登录 · @zmzai/theme · zmzai-db · zmzai-contracts</text>
+  <text x="812" y="430" text-anchor="end" class="m ink2" font-size="12">zmzai.cloud</text>
+
+</svg>
